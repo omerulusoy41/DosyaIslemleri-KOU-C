@@ -294,7 +294,7 @@ void indexDosyasiniGoster(FILE *index){
     if(index==NULL){
         printf("Index Dosyasi Bulunamadi.\n");
     }else{
-     printf("\nIndex Dosyasi Goruntuleniyor...\n----------------------");
+     printf("\nIndex Dosyasi Goruntuleniyor....\n----------------------");
      printf("\n<OgrNO><Adres>\n");
      char c=fgetc(index);
      while(c!=EOF){
